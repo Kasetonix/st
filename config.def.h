@@ -41,7 +41,7 @@ static unsigned int defaultrcs = 256; /* reverse-cursor */
 static int selectionfg = 7;
 static int selectionbg = 0;
 
-char *termname = "st"; /* default TERM value */
+char *termname = "st-256color"; /* default TERM value */
 unsigned int tabspaces = 4; /* the length of the tab */
 
 /*
