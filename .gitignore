@@ -6,3 +6,6 @@
 
 # ignoring config.h (automatically gets created on build)
 config.h
+
+# ignoring object files
+*.o
