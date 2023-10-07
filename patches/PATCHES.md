@@ -1,0 +1,11 @@
+http://st.suckless.org/patches/alpha/
+http://st.suckless.org/patches/anysize/
+http://st.suckless.org/patches/blinking_cursor/
+http://st.suckless.org/patches/boxdraw/
+http://st.suckless.org/patches/clipboard/
+http://st.suckless.org/patches/ligatures/
+http://st.suckless.org/patches/scrollback/
+http://st.suckless.org/patches/selectioncolors/
+http://st.suckless.org/patches/sync/
+http://st.suckless.org/patches/universcroll/
+http://st.suckless.org/patches/newterm/
