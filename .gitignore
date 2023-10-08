@@ -9,3 +9,7 @@ config.h
 
 # ignoring object files
 *.o
+
+# ignoring rejects and original files left after patching
+*.rej
+*.orig

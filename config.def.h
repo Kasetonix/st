@@ -1,8 +1,16 @@
-/* See LICENSE file for copyright and license details. */
+/*
+ * ███████╗████████╗
+ * ██╔════╝╚══██╔══╝
+ * ███████╗   ██║
+ * ╚════██║   ██║
+ * ███████║   ██║
+ * ╚══════╝   ╚═╝
+ * Simple Terminal
+*/
 
 /* Theming */
 static char *font = "JetBrainsMono Nerd Font:pixelsize=18:antialias=true:autohint=true";
-static int borderpx = 20;
+static int borderpx = 24;
 float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
@@ -39,7 +47,8 @@ unsigned int defaultbg = 257; /* bg */
 unsigned int defaultcs = 256; /* cursor*/
 static unsigned int defaultrcs = 256; /* reverse-cursor */
 static int selectionfg = 7;
-static int selectionbg = 0;
+static int selectionbg = 8;
+static int ignoreselfg = 1;
 
 char *termname = "st-256color"; /* default TERM value */
 unsigned int tabspaces = 4; /* the length of the tab */
@@ -122,7 +131,6 @@ int allowaltscreen = 1;
 int allowwindowops = 0;
 static unsigned int defaultattr = 11;
 static int bellvolume = 0;
-static int ignoreselfg = 0;
 
 /* External programs */
 static char *shell = "/bin/sh";
