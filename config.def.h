@@ -9,14 +9,15 @@
 */
 
 /* Theming */
-static char *font = "JetBrainsMono Nerd Font:pixelsize=18:antialias=true:autohint=true";
+// static char *font = "JetBrainsMono Nerd Font:pixelsize=18:antialias=true:autohint=true";
+static char *font = "Victor Mono:weight=SemiBold:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 24;
-float alpha = 0.8;
+float alpha = 0.80;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#262b32", /* black   */
+	"#31343f", /* black   */
 	"#e06c75", /* red     */
 	"#98c379", /* green   */
 	"#e5c07b", /* yellow  */
@@ -26,7 +27,7 @@ static const char *colorname[] = {
 	"#abb2bf", /* white   */
 
 	/* 8 bright colors */
-	"#31343f", /* black   */
+	"#5c6370", /* black   */
 	"#e06c75", /* red     */
 	"#98c379", /* green   */
 	"#e5c07b", /* yellow  */
