@@ -12,7 +12,7 @@
 // static char *font = "JetBrainsMono Nerd Font:pixelsize=18:antialias=true:autohint=true";
 static char *font = "Victor Mono:weight=SemiBold:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 24;
-float alpha = 0.80;
+float alpha = 1;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -39,8 +39,9 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#abb2bf", /* foreground colour    */
-	"#1e2228", /* background colour (with transparency looks more like onedark) */
+	"#abb2bf", /* foreground color */
+	/* "#1e2228",*/ /* background color (with transparency looks more like onedark) */
+    "#262b32", /* standard onedark background color */
 };
 
 unsigned int defaultfg = 256; /* fg */
